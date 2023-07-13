@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="RTK"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/0-0mashuo/Desktop/Clion/RTK/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/0-0mashuo/Desktop/Clion/RTK/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/0-0mashuo/Desktop/Clion/RTK/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/0-0mashuo/Desktop/Clion/RTK/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/0-0mashuo/Desktop/Clion/RTK/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/0-0mashuo/Desktop/Clion/RTK/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/0-0mashuo/Desktop/Clion/RTK/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/0-0mashuo/Desktop/Clion/RTK/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/0-0mashuo/Desktop/Clion/RTK/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/0-0mashuo/Desktop/Clion/RTK/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/0-0mashuo/Desktop/Clion/RTK/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/0-0mashuo/Desktop/Clion/RTK/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/0-0mashuo/Desktop/Clion/RTK/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/0-0mashuo/Desktop/Clion/RTK/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/0-0mashuo/Desktop/Clion/RTK/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="RTK">
+				<Option output="/Users/0-0mashuo/Desktop/Clion/RTK/cmake-build-debug/RTK" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/0-0mashuo/Desktop/Clion/RTK/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/0-0mashuo/Desktop/Clion/RTK/cmake-build-debug/Makefile&quot;  VERBOSE=1 RTK"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/0-0mashuo/Desktop/Clion/RTK/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/0-0mashuo/Desktop/Clion/RTK/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/0-0mashuo/Desktop/Clion/RTK/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="RTK/fast">
+				<Option output="/Users/0-0mashuo/Desktop/Clion/RTK/cmake-build-debug/RTK" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/0-0mashuo/Desktop/Clion/RTK/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/0-0mashuo/Desktop/Clion/RTK/cmake-build-debug/Makefile&quot;  VERBOSE=1 RTK/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/0-0mashuo/Desktop/Clion/RTK/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/0-0mashuo/Desktop/Clion/RTK/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/0-0mashuo/Desktop/Clion/RTK/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/0-0mashuo/Desktop/Clion/RTK/BitOperation.h">
+			<Option target="RTK"/>
+		</Unit>
+		<Unit filename="/Users/0-0mashuo/Desktop/Clion/RTK/CoorSys.cpp">
+			<Option target="RTK"/>
+		</Unit>
+		<Unit filename="/Users/0-0mashuo/Desktop/Clion/RTK/CoorSys.h">
+			<Option target="RTK"/>
+		</Unit>
+		<Unit filename="/Users/0-0mashuo/Desktop/Clion/RTK/CycleSlip.cpp">
+			<Option target="RTK"/>
+		</Unit>
+		<Unit filename="/Users/0-0mashuo/Desktop/Clion/RTK/CycleSlip.h">
+			<Option target="RTK"/>
+		</Unit>
+		<Unit filename="/Users/0-0mashuo/Desktop/Clion/RTK/GnssData.cpp">
+			<Option target="RTK"/>
+		</Unit>
+		<Unit filename="/Users/0-0mashuo/Desktop/Clion/RTK/GnssData.h">
+			<Option target="RTK"/>
+		</Unit>
+		<Unit filename="/Users/0-0mashuo/Desktop/Clion/RTK/Matrix.cpp">
+			<Option target="RTK"/>
+		</Unit>
+		<Unit filename="/Users/0-0mashuo/Desktop/Clion/RTK/Matrix.h">
+			<Option target="RTK"/>
+		</Unit>
+		<Unit filename="/Users/0-0mashuo/Desktop/Clion/RTK/Positioning.cpp">
+			<Option target="RTK"/>
+		</Unit>
+		<Unit filename="/Users/0-0mashuo/Desktop/Clion/RTK/Positioning.h">
+			<Option target="RTK"/>
+		</Unit>
+		<Unit filename="/Users/0-0mashuo/Desktop/Clion/RTK/RelativePositioning.cpp">
+			<Option target="RTK"/>
+		</Unit>
+		<Unit filename="/Users/0-0mashuo/Desktop/Clion/RTK/RelativePositioning.h">
+			<Option target="RTK"/>
+		</Unit>
+		<Unit filename="/Users/0-0mashuo/Desktop/Clion/RTK/Solve.cpp">
+			<Option target="RTK"/>
+		</Unit>
+		<Unit filename="/Users/0-0mashuo/Desktop/Clion/RTK/Solve.h">
+			<Option target="RTK"/>
+		</Unit>
+		<Unit filename="/Users/0-0mashuo/Desktop/Clion/RTK/TimeSys.cpp">
+			<Option target="RTK"/>
+		</Unit>
+		<Unit filename="/Users/0-0mashuo/Desktop/Clion/RTK/TimeSys.h">
+			<Option target="RTK"/>
+		</Unit>
+		<Unit filename="/Users/0-0mashuo/Desktop/Clion/RTK/lambda.cpp">
+			<Option target="RTK"/>
+		</Unit>
+		<Unit filename="/Users/0-0mashuo/Desktop/Clion/RTK/lambda.h">
+			<Option target="RTK"/>
+		</Unit>
+		<Unit filename="/Users/0-0mashuo/Desktop/Clion/RTK/main.cpp">
+			<Option target="RTK"/>
+		</Unit>
+		<Unit filename="/Users/0-0mashuo/Desktop/Clion/RTK/readB.cpp">
+			<Option target="RTK"/>
+		</Unit>
+		<Unit filename="/Users/0-0mashuo/Desktop/Clion/RTK/readB.h">
+			<Option target="RTK"/>
+		</Unit>
+		<Unit filename="/Users/0-0mashuo/Desktop/Clion/RTK/receive_port.cpp">
+			<Option target="RTK"/>
+		</Unit>
+		<Unit filename="/Users/0-0mashuo/Desktop/Clion/RTK/receive_port.h">
+			<Option target="RTK"/>
+		</Unit>
+		<Unit filename="/Users/0-0mashuo/Desktop/Clion/RTK/setting_map.cpp">
+			<Option target="RTK"/>
+		</Unit>
+		<Unit filename="/Users/0-0mashuo/Desktop/Clion/RTK/setting_map.h">
+			<Option target="RTK"/>
+		</Unit>
+		<Unit filename="/Users/0-0mashuo/Desktop/Clion/RTK/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

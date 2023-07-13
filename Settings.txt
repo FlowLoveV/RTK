@@ -1,0 +1,27 @@
+# RTK solution setting
+1                                                                               # Solution mode/Data source
+10                                                                              # Elevation limit
+30                                                                              # SNR limit
+1                                                                               # Variance model
+2                                                                               # Ratio limit
+10000                                                                           # Variance Ratio
+GL1GL2                                                                          # Satellite system and frequency
+/Users/0-0mashuo/Desktop/卫导算法2/res/                                          # Process file path
+/Users/0-0mashuo/Desktop/卫导算法2/20230401/02/Rove.log                          # Mobile logFile directory(SPP file)
+/Users/0-0mashuo/Desktop/卫导算法2/20230401/02/Base.log                          # Base logFile directory
+8.140.46.126                                                                    # BASE IP(SPP IP)
+5002                                                                            # BASE PORT(SPP PORT)
+8.140.46.126                                                                    # MOBILE IP
+3002                                                                            # MOBILE PORT
+                                                                                END OF SETTING
+// 解算配置注释
+      名称                                                                       配置及其含义
+Solution mode/Data source 解算模式                                         two bit  bit0:{0=SPP,1=RTK} bit1:{0=FILE,1=PORT}
+Elevation limit 高度角限制                                                          单位：deg
+SNR limit       信噪比限制                                                             /
+Variance model方差模型                                                     1：高度角模型   2：信噪比模型   3:等权模型
+Variance Ratio伪距/相位方差比                                                           /
+Satellite system and frequency参与解算的卫星系统及频率                        CL1:BDS BI1载波，以此类推
+Mobile logFile directory(SPP file)                                        SPP中文件路径或者RTK中流动站文件路径
+Base logFile directory                                                    RTK中基站文件路径
+Process file path                                                         处理过程中间文件路径
